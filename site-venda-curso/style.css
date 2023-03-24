@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+.header-cont {
+    width: 100%;
+    height: 80px;
+    background-color: #00C853;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+}
+
+.header-cont, h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.color-logo{
+    color: green;
+    line-height: 100%;
+}
+
+.ancora-nav {
+    text-decoration: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: white;
+    border-bottom: 2px solid white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.ancora-nav:hover {
+    box-shadow: 0px 10px 40px -12px white;
+    border: none;
+    background-color: #01b94e;
+}
+
+#principal {
+    width: 100%;
+    height: 520px;
+    background-color: #00C853;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.imagem-principal {
+    height: 480px;
+}
+
+
+.conteudo-p-escrito{
+    display: flex;
+    flex-direction: column;
+    color: #FFF2E7;
+}
+
+.texto-principal{
+    font-size: 42px;
+}
+
+.info-seg-p{
+    font-size: 18px;
+}
+
+.botao-p {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+    color: #2F2325;
+    margin-top: 120px;
+    cursor: pointer;
+}
+
+.botao-p:hover {
+    background-color: rgba(236, 214, 196, 0.664);
+}
+
+#conteudo-cursos{
+    width: 100%;
+    height: 620px;
+    margin-bottom: 40px;
+}
+
+.conteudo-escrito-cursos {
+    width: 30%;
+    margin: 0 auto;
+    border-bottom: 1px solid #2f232556;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.titulo-cursos{
+    color: #2F2325;
+    text-align: center;
+}
+
+.conteudo-c-cursos {
+    width: 350px;
+    height: 540px;
+    background-color: #e9e9e9af;
+    box-shadow: 3px 4px 3px rgba(0, 0, 0, 0.25);
+    text-align: center;
+    padding-top: 15px;
+}
+
+.titulo-card-curso{
+    color: #2F2325;
+}
+
+.link-conhecer{
+    margin-top: 20px;
+    background-color: #00C853;
+    padding: 18px;
+    padding-left: 25px;
+    padding-right: 25px;
+    display: inline-block;
+    text-decoration: none;
+    color: #2F2325;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.link-conhecer:hover{
+    background-color: #00c853a6;
+}
+
+.cursos-s {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.rodape {
+    width: 100%;
+    height: 100px;
+    background-color: #00C853;
+}
+
+.titulo-rodape{
+    text-align: center;
+    padding: 40px;
+    color: #2F2325;
+}
+
+
+
+#container-web {
+    width: 100%;
+    height: 630px;
+}
+
+.container-web-escrito{
+  text-align: center;  
+}
+
+.h1-web-titulo {
+    color: #2F2325;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.25);
+    font-size: 32px;
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container-web-video {
+    width: 45%;
+    height: 350px;
+    border: 10px solid rgba(0, 0, 0, 0.705);
+    border-left: 30px solid rgba(0, 0, 0, 0.705);
+    border-right: 30px solid rgba(0, 0, 0, 0.705);
+    margin: 0 auto;
+    border-radius: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.video{
+    border-radius: 18px;
+}
+
+.web-controles {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.botao-controle-habilitado {
+    padding: 20px;
+    background-color: #00C853;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.botao-controle-desabilitado {
+    padding: 20px;
+    background-color: #00c853a6;
+    margin: 0 auto;
+    border-radius: 10px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 10px;
+    cursor: default;
+}
+
